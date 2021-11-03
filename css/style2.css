@@ -1,0 +1,289 @@
+
+@font-face {
+    font-family: 'Reey-Regular';
+    src:url('../Reey-Regular.ttf.woff') format('woff'),
+        url('../Reey-Regular.ttf.svg#Reey-Regular') format('svg'),
+        url('../Reey-Regular.ttf.eot'),
+        url('../Reey-Regular.ttf.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src:url('../Montserrat-Regular.ttf');
+  font-weight: normal;
+  font-style:normal;
+}
+@font-face {
+  font-family: 'OpenSans-Bold';
+  src:url('../OpenSans-Bold.ttf');
+     :url('../OpenSans-BoldItalic.ttf');
+     :url('../OpenSans-Italic.ttf');
+     font-weight:normal;
+     font-style: normal;
+}
+
+* {
+  padding: 0;
+  margin:0;
+}
+
+header {
+  background-image:url("header-background.png");
+  background-repeat:no-repeat;
+  background-size: cover;
+  /* height: 120vh; */
+
+}
+
+nav {
+  letter-spacing: -0.25rem;
+  text-align: right;
+}
+nav li {
+  color: white;
+  display: inline-block;
+  box-sizing: border-box;
+  position: relative;
+  /* width: calc(100%/4); */
+  letter-spacing: normal;
+  text-align: right;
+  padding: 15px 10px;
+  font-weight: bold;
+  font-family:'OpenSans-Bold';
+}
+
+.headerimg img{
+  position: absolute;
+  left:1000px;top:230px;
+  width:700px;
+  /* height:400px; */
+  /* float: right; */
+  /* padding-left: 1300px; */
+  /* margin-top: 100px; */
+
+}
+
+.hsauce img {
+  position: relative;
+  left:700px; top: 600px;
+
+}
+
+.basiliqueimg img {
+  position: absolute;
+  right: 0px;
+  bottom:-320px;
+
+}
+
+.header{
+  color: white;
+}
+
+h1 {
+  font-family: 'Reey-Regular';
+  color: white;
+  font-size: 100px;
+  padding-left:100px;
+  padding-top: 250px;
+  position: absolute;
+}
+
+.logo img {
+  position: absolute;
+  left:100px;
+  bottom:590px;
+}
+.header h2 {
+  font-family: 'OpenSans-Bold';
+  font-style: italic;
+  position: absolute;
+  padding-top: 500px;
+  padding-left: 100px;
+}
+
+.headerp p {
+  position: absolute;
+  padding-left: 100px;
+  padding-top: 600px;
+  font-size: 18px;
+  font-weight: bold;
+  box-sizing: border-box;
+  width: 32%;
+  color: white;
+  font-style: italic;
+  font-family: 'OpenSans-Bold'
+}
+
+/* button {
+  width: 80px;
+  height: 30px;
+  border-radius:10px;
+  padding-left: 100px;
+  position: absolute;
+  left: 100px;
+  top: 610px;
+} */
+
+.sectionpates {
+  /* letter-spacing: -0.25rem; */
+}
+.patesh2 h2 {
+  font-family: 'Reey-Regular';
+  text-align: center;
+  font-size: 80px;
+  padding-top: 100px;
+}
+.patesprg p {
+  text-align: center;
+  margin: auto;
+  padding-top: 100px;
+  /* left: 600px; */
+  /* box-sizing: border-box; */
+  /* width: 30%; */
+  /* position: absolute; */
+}
+
+.pates {
+  letter-spacing: -0.25rem;
+  padding-top:100px;
+  padding-bottom: 100px;
+}
+.patesimg3,.patesimg1,.patesimg2{
+  width: calc(100%/3);
+  display: inline-block;
+  letter-spacing: normal;
+  text-align: center;
+
+
+}
+.pates img{
+  width: 50%
+}
+/* .patesimg3 p,.patesimg1 p,.patesimg2 p {
+  text-align:left;
+} */
+#test p, #test h3{
+  text-align: left;
+}
+#button2 {
+  /* margin-top: 50px */
+}
+.patesimg2 p,.patesimg1 p,.patesimg2 p {
+  /* padding-bottom: 50px; */
+}
+
+.form2 {
+ display: inline-block;
+ width: 45%;
+ /* text-align: center; */
+
+}
+
+.map {
+  display: inline-block;
+  width: 45%
+}
+
+.form2 p {
+  font-weight: bold;
+  margin-bottom:25px;
+  margin-top: 25px;
+  padding-left:15px;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Reey-Regular';
+}
+
+.form2 .Nom {
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-left:15px;
+}
+
+.form2 .email {
+  font-weight:bold;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-left:15px;
+}
+
+.form2 .select {
+  font-weight: bold;
+  margin-top: 15px;
+  padding-left:15px;
+}
+
+.form2 .desc {
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-left:15px;
+}
+
+.form2 .check {
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-left:15px;
+
+}
+
+.form2 .sub {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-left:15px;
+}
+
+
+.form2 .left {
+  /* text-align: left; */
+}
+
+.form2 .area {
+  padding-left:15px;
+}
+
+
+
+footer img {
+  width: 40px;
+}
+
+.footleft {
+  display: inline-block;
+  width: 35%;
+
+}
+
+.footright {
+  float: right;
+  padding-right: 120px;
+  width:385px;
+}
+
+.footright2 {
+  float: right;
+  width:282px;
+}
+
+.footright3 {
+  float: right;
+  width: 285px;
+}
+footer {
+  background-image:url("header-background.png");
+  background-repeat:no-repeat;
+  background-size: cover;
+  height: 48vh;
+  color: white;
+}
+
+#fbutton {
+  background-color: white;
+    color: black;
+    border: 2px solid #00000;
+    padding: 20px;
+}
